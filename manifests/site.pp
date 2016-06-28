@@ -47,5 +47,6 @@ node default {
    ensure => file,
    path => '/etc/motd',
    content => 'Today I learned about Puppet Resources',
+   exec { 'cowsay 'Welcome to ${::fqdn}!' > /etc/motd': }
   }
 }
