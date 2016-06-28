@@ -40,6 +40,7 @@ ini_setting { 'random ordering':
 
 node default {
 include users
+include skeleton
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
