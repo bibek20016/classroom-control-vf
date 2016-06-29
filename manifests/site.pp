@@ -42,6 +42,7 @@ node default {
 include users
 include skeleton
 include memcached
+include nginx
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
