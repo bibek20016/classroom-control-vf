@@ -42,10 +42,6 @@ node default {
 include users
 include skeleton
 include memcached
-
-  nginx::vhost { 'pizza.puppetlabs.vm': }
-  nginx::vhost { 'chicagotomatocasserole.com': }
-  
 include nginx
 include users::admins
   # This is where you can declare classes for all nodes.
