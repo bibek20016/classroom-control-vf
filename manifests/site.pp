@@ -43,6 +43,8 @@ include users
 include skeleton
 include memcached
 include nginx
+  nginx::default { 'pizza.puppetlabs.vm': }
+  nginx::default { 'chicagotomatocasserole.com': }
 include users::admins
   # This is where you can declare classes for all nodes.
   # Example:
