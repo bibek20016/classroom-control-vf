@@ -43,6 +43,7 @@ include users
 include skeleton
 include memcached
 include nginx
+include users::admins
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
